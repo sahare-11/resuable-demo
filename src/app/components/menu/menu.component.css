@@ -1,0 +1,45 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.menu-bar {
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+.menu-button {
+  display: inline-block;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  
+
+  background-color: cornflowerblue;
+  color: antiquewhite;
+}
+
+.icon-button {
+  display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+
+  background-color: transparent;
+  color: antiquewhite;
+  
+
+}
